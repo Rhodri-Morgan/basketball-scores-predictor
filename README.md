@@ -2,6 +2,10 @@
 
 ## About
 
+![error_distribution_game_lag_4.png](output/error_distribution_game_lag_4.png)
+
+![mape_comparison.png](output/mape_comparison.png)
+
 ### Project
 
 This project is an rough implementation of a published article entitled [Hybrid Basketball Game Outcome Prediction Model by Integrating Data Mining Methods for the National Basketball Association](https://www.mdpi.com/1099-4300/23/4/477).
