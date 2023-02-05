@@ -185,7 +185,7 @@ def plot_mape(
     mape_df: pd.DataFrame,
     out_path: str
 ):
-    fig, axs = plt.subplots(2, 1, figsize=(14, 10), gridspec_kw={'height_ratios': [3, 1]})
+    fig, axs = plt.subplots(2, 1, figsize=(20, 10), gridspec_kw={'height_ratios': [3, 1]})
     fig.suptitle(f'Basketball Predictor MAPE Comparison', fontsize=12, fontweight='bold')
     mape_df.plot(kind='bar', ax=axs[0])
     axs[0].axhline(y=BEST_MAPE, linestyle='--', color='black', alpha=0.5)
@@ -225,7 +225,7 @@ if __name__ == '__main__':
 
     print('Starting...')
     for game_lag in GAME_LAG:
-        print(f'\nBuilding models for game_lag {game_lag}')
+        print(f'\nBuilding models for game_lag {game_lag}\n============================')
         data_df = extract_data(game_lag)
         if SPLIT_METHOD == 'TIME':
             training_predictors_df, training_target_df, testing_predictors_df, testing_target_df = split_data_by_time(data_df)
@@ -281,4 +281,4 @@ if __name__ == '__main__':
     plot_mape(mape_df, os.path.join(OUTPUT_PATH, 'mape_comparison.png'))
     with open(os.path.join(OUTPUT_PATH, 'metrics.json'), 'w') as metrics_json:
         json.dump(metrics, metrics_json)
-    print(f'Output {OUTPUT_PATH}')
+    print(f'\nOutput {OUTPUT_PATH}')
