@@ -1,1 +1,350 @@
-{"model_name": "Basketball Score Predictor", "description": "https://www.mdpi.com/1099-4300/23/4/477", "year_filter": 2000, "training_frac": 0.95, "split_method": "RANDOM", "seed": 0, "lag_experiments": [{"game_lag": 1, "dataset_count": {"total": 51676, "training": 49092, "testing": 2584}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.0933138178937705, "out_sample_mape": 0.09825839547676482, "avg score prediction error": -0.025179360837529512, "std score prediction error": 12.449584147021136}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08686380134348295, "out_sample_mape": 0.10777009640611263, "avg score prediction error": -0.06896284829721355, "std score prediction error": 13.747122611971113}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.1453832414902195, "avg score prediction error": -0.030959752321981424, "std score prediction error": 18.130741292032493}, {"name": "Linear Regressor", "in_sample_mape": 0.09590312806525987, "out_sample_mape": 0.09805337155020818, "avg score prediction error": 0.017539930494999075, "std score prediction error": 12.388241815050213}]}, {"game_lag": 2, "dataset_count": {"total": 51550, "training": 48972, "testing": 2578}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09252551174364936, "out_sample_mape": 0.09319881726605342, "avg score prediction error": -0.07398021686090872, "std score prediction error": 11.789016161545767}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08519638686566157, "out_sample_mape": 0.10165702882046988, "avg score prediction error": -0.135764158262219, "std score prediction error": 12.851464534626137}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13902800058952344, "avg score prediction error": 0.07796741660201707, "std score prediction error": 17.23929741769283}, {"name": "Linear Regressor", "in_sample_mape": 0.09463833186716322, "out_sample_mape": 0.09314897095110185, "avg score prediction error": -0.06641919771497033, "std score prediction error": 11.778046186938258}]}, {"game_lag": 3, "dataset_count": {"total": 51449, "training": 48877, "testing": 2572}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09132632022601031, "out_sample_mape": 0.0942284801063419, "avg score prediction error": -0.11166900702077778, "std score prediction error": 11.97923196455447}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08417272807843257, "out_sample_mape": 0.10462112585827832, "avg score prediction error": -0.0010108864696734589, "std score prediction error": 13.19423098848717}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.1438165288724705, "avg score prediction error": 0.3973561430793157, "std score prediction error": 17.571633708094442}, {"name": "Linear Regressor", "in_sample_mape": 0.09389191296450893, "out_sample_mape": 0.09390927188790485, "avg score prediction error": -0.11595799405131291, "std score prediction error": 11.945352614731624}]}, {"game_lag": 4, "dataset_count": {"total": 51357, "training": 48789, "testing": 2568}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09141008248767814, "out_sample_mape": 0.0915828889199285, "avg score prediction error": -0.13467415611268038, "std score prediction error": 11.657013220894536}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08378023044390819, "out_sample_mape": 0.10007981083044601, "avg score prediction error": -0.12920560747663568, "std score prediction error": 12.623808819666142}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.1358956959597644, "avg score prediction error": -0.440809968847352, "std score prediction error": 16.923266902320105}, {"name": "Linear Regressor", "in_sample_mape": 0.09357410495867696, "out_sample_mape": 0.09180095651507783, "avg score prediction error": -0.13515100188725415, "std score prediction error": 11.664884622692597}]}, {"game_lag": 5, "dataset_count": {"total": 51272, "training": 48708, "testing": 2564}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09106537942556318, "out_sample_mape": 0.09395943351058186, "avg score prediction error": -0.12492070979884173, "std score prediction error": 11.883655761390767}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08242029525059477, "out_sample_mape": 0.10165566180675595, "avg score prediction error": -0.09251170046801874, "std score prediction error": 12.793383364478492}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13581982868858344, "avg score prediction error": -0.5054602184087363, "std score prediction error": 16.94950067062713}, {"name": "Linear Regressor", "in_sample_mape": 0.0931306370493033, "out_sample_mape": 0.09351064583543481, "avg score prediction error": -0.09877233333920586, "std score prediction error": 11.830865848986319}]}, {"game_lag": 6, "dataset_count": {"total": 51190, "training": 48630, "testing": 2560}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09061504294478233, "out_sample_mape": 0.09212060710654389, "avg score prediction error": -0.2359814732220924, "std score prediction error": 11.665953672864044}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08187442400196586, "out_sample_mape": 0.09954044625957499, "avg score prediction error": -0.134765625, "std score prediction error": 12.549855650567777}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13629996724158364, "avg score prediction error": -0.165625, "std score prediction error": 16.911231529850085}, {"name": "Linear Regressor", "in_sample_mape": 0.0929693697572781, "out_sample_mape": 0.09178016493045973, "avg score prediction error": -0.1759170974521073, "std score prediction error": 11.59443805248074}]}, {"game_lag": 7, "dataset_count": {"total": 51109, "training": 48554, "testing": 2555}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.0903689510851796, "out_sample_mape": 0.09163532454257119, "avg score prediction error": -0.08135872601014325, "std score prediction error": 11.667551855771148}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08156928103242392, "out_sample_mape": 0.099645779387419, "avg score prediction error": -0.03616438356164391, "std score prediction error": 12.560261296077712}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13804060737202406, "avg score prediction error": -0.30176125244618396, "std score prediction error": 17.186734586922032}, {"name": "Linear Regressor", "in_sample_mape": 0.09277531436995858, "out_sample_mape": 0.09179781130898429, "avg score prediction error": -0.07130430376235097, "std score prediction error": 11.667369181751324}]}, {"game_lag": 8, "dataset_count": {"total": 51028, "training": 48477, "testing": 2551}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.09009526423609439, "out_sample_mape": 0.09373817260658873, "avg score prediction error": 0.004188071818465776, "std score prediction error": 11.836438785193307}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08086727564106133, "out_sample_mape": 0.10028538830882036, "avg score prediction error": -0.06107408859270866, "std score prediction error": 12.62590000142094}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13750932250241168, "avg score prediction error": 0.19482555860446885, "std score prediction error": 16.95796616201103}, {"name": "Linear Regressor", "in_sample_mape": 0.09253270987732252, "out_sample_mape": 0.09354393817835692, "avg score prediction error": 0.060345849209622084, "std score prediction error": 11.795489566742711}]}, {"game_lag": 9, "dataset_count": {"total": 50952, "training": 48404, "testing": 2548}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.08971062686462992, "out_sample_mape": 0.09166079081861339, "avg score prediction error": 0.27875472187097267, "std score prediction error": 11.680697465826961}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.08056415321382945, "out_sample_mape": 0.09861103133666684, "avg score prediction error": 0.19018838304552596, "std score prediction error": 12.527962202576521}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13662366028985803, "avg score prediction error": 0.7272370486656201, "std score prediction error": 16.669910517642446}, {"name": "Linear Regressor", "in_sample_mape": 0.09252013990783202, "out_sample_mape": 0.09171078372170702, "avg score prediction error": 0.29740987257487067, "std score prediction error": 11.674463538146112}]}, {"game_lag": 10, "dataset_count": {"total": 50879, "training": 48335, "testing": 2544}, "models": [{"name": "Gradient Boosting Regressor", "in_sample_mape": 0.08953326023756322, "out_sample_mape": 0.09360064716736638, "avg score prediction error": -0.06546750442343517, "std score prediction error": 11.789527875850021}, {"name": "K Nearest Neighbors", "in_sample_mape": 0.0805349826506647, "out_sample_mape": 0.09915045693682539, "avg score prediction error": -0.21721698113207538, "std score prediction error": 12.459616022097137}, {"name": "Decision Tree Regressor", "in_sample_mape": 0.0, "out_sample_mape": 0.13511290515819813, "avg score prediction error": -0.5727201257861635, "std score prediction error": 16.872850898257017}, {"name": "Linear Regressor", "in_sample_mape": 0.09236672523468023, "out_sample_mape": 0.09347546279050575, "avg score prediction error": -0.08189282805348869, "std score prediction error": 11.785053742173037}]}]}
+{
+  "model_name": "Basketball Score Predictor",
+  "description": "https://www.mdpi.com/1099-4300/23/4/477",
+  "year_filter": 2000,
+  "training_frac": 0.95,
+  "split_method": "RANDOM",
+  "seed": 0,
+  "lag_experiments": [
+    {
+      "game_lag": 1,
+      "dataset_count": { "total": 51676, "training": 49092, "testing": 2584 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.0933138178937705,
+          "out_sample_mape": 0.09825839547676482,
+          "avg score prediction error": -0.025179360837529512,
+          "std score prediction error": 12.449584147021136
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08686380134348295,
+          "out_sample_mape": 0.10777009640611263,
+          "avg score prediction error": -0.06896284829721355,
+          "std score prediction error": 13.747122611971113
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.1453832414902195,
+          "avg score prediction error": -0.030959752321981424,
+          "std score prediction error": 18.130741292032493
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09590312806525987,
+          "out_sample_mape": 0.09805337155020818,
+          "avg score prediction error": 0.017539930494999075,
+          "std score prediction error": 12.388241815050213
+        }
+      ]
+    },
+    {
+      "game_lag": 2,
+      "dataset_count": { "total": 51550, "training": 48972, "testing": 2578 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09252551174364936,
+          "out_sample_mape": 0.09319881726605342,
+          "avg score prediction error": -0.07398021686090872,
+          "std score prediction error": 11.789016161545767
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08519638686566157,
+          "out_sample_mape": 0.10165702882046988,
+          "avg score prediction error": -0.135764158262219,
+          "std score prediction error": 12.851464534626137
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13902800058952344,
+          "avg score prediction error": 0.07796741660201707,
+          "std score prediction error": 17.23929741769283
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09463833186716322,
+          "out_sample_mape": 0.09314897095110185,
+          "avg score prediction error": -0.06641919771497033,
+          "std score prediction error": 11.778046186938258
+        }
+      ]
+    },
+    {
+      "game_lag": 3,
+      "dataset_count": { "total": 51449, "training": 48877, "testing": 2572 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09132632022601031,
+          "out_sample_mape": 0.0942284801063419,
+          "avg score prediction error": -0.11166900702077778,
+          "std score prediction error": 11.97923196455447
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08417272807843257,
+          "out_sample_mape": 0.10462112585827832,
+          "avg score prediction error": -0.0010108864696734589,
+          "std score prediction error": 13.19423098848717
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.1438165288724705,
+          "avg score prediction error": 0.3973561430793157,
+          "std score prediction error": 17.571633708094442
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09389191296450893,
+          "out_sample_mape": 0.09390927188790485,
+          "avg score prediction error": -0.11595799405131291,
+          "std score prediction error": 11.945352614731624
+        }
+      ]
+    },
+    {
+      "game_lag": 4,
+      "dataset_count": { "total": 51357, "training": 48789, "testing": 2568 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09141008248767814,
+          "out_sample_mape": 0.0915828889199285,
+          "avg score prediction error": -0.13467415611268038,
+          "std score prediction error": 11.657013220894536
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08378023044390819,
+          "out_sample_mape": 0.10007981083044601,
+          "avg score prediction error": -0.12920560747663568,
+          "std score prediction error": 12.623808819666142
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.1358956959597644,
+          "avg score prediction error": -0.440809968847352,
+          "std score prediction error": 16.923266902320105
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09357410495867696,
+          "out_sample_mape": 0.09180095651507783,
+          "avg score prediction error": -0.13515100188725415,
+          "std score prediction error": 11.664884622692597
+        }
+      ]
+    },
+    {
+      "game_lag": 5,
+      "dataset_count": { "total": 51272, "training": 48708, "testing": 2564 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09106537942556318,
+          "out_sample_mape": 0.09395943351058186,
+          "avg score prediction error": -0.12492070979884173,
+          "std score prediction error": 11.883655761390767
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08242029525059477,
+          "out_sample_mape": 0.10165566180675595,
+          "avg score prediction error": -0.09251170046801874,
+          "std score prediction error": 12.793383364478492
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13581982868858344,
+          "avg score prediction error": -0.5054602184087363,
+          "std score prediction error": 16.94950067062713
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.0931306370493033,
+          "out_sample_mape": 0.09351064583543481,
+          "avg score prediction error": -0.09877233333920586,
+          "std score prediction error": 11.830865848986319
+        }
+      ]
+    },
+    {
+      "game_lag": 6,
+      "dataset_count": { "total": 51190, "training": 48630, "testing": 2560 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09061504294478233,
+          "out_sample_mape": 0.09212060710654389,
+          "avg score prediction error": -0.2359814732220924,
+          "std score prediction error": 11.665953672864044
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08187442400196586,
+          "out_sample_mape": 0.09954044625957499,
+          "avg score prediction error": -0.134765625,
+          "std score prediction error": 12.549855650567777
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13629996724158364,
+          "avg score prediction error": -0.165625,
+          "std score prediction error": 16.911231529850085
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.0929693697572781,
+          "out_sample_mape": 0.09178016493045973,
+          "avg score prediction error": -0.1759170974521073,
+          "std score prediction error": 11.59443805248074
+        }
+      ]
+    },
+    {
+      "game_lag": 7,
+      "dataset_count": { "total": 51109, "training": 48554, "testing": 2555 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.0903689510851796,
+          "out_sample_mape": 0.09163532454257119,
+          "avg score prediction error": -0.08135872601014325,
+          "std score prediction error": 11.667551855771148
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08156928103242392,
+          "out_sample_mape": 0.099645779387419,
+          "avg score prediction error": -0.03616438356164391,
+          "std score prediction error": 12.560261296077712
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13804060737202406,
+          "avg score prediction error": -0.30176125244618396,
+          "std score prediction error": 17.186734586922032
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09277531436995858,
+          "out_sample_mape": 0.09179781130898429,
+          "avg score prediction error": -0.07130430376235097,
+          "std score prediction error": 11.667369181751324
+        }
+      ]
+    },
+    {
+      "game_lag": 8,
+      "dataset_count": { "total": 51028, "training": 48477, "testing": 2551 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.09009526423609439,
+          "out_sample_mape": 0.09373817260658873,
+          "avg score prediction error": 0.004188071818465776,
+          "std score prediction error": 11.836438785193307
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08086727564106133,
+          "out_sample_mape": 0.10028538830882036,
+          "avg score prediction error": -0.06107408859270866,
+          "std score prediction error": 12.62590000142094
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13750932250241168,
+          "avg score prediction error": 0.19482555860446885,
+          "std score prediction error": 16.95796616201103
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09253270987732252,
+          "out_sample_mape": 0.09354393817835692,
+          "avg score prediction error": 0.060345849209622084,
+          "std score prediction error": 11.795489566742711
+        }
+      ]
+    },
+    {
+      "game_lag": 9,
+      "dataset_count": { "total": 50952, "training": 48404, "testing": 2548 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.08971062686462992,
+          "out_sample_mape": 0.09166079081861339,
+          "avg score prediction error": 0.27875472187097267,
+          "std score prediction error": 11.680697465826961
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.08056415321382945,
+          "out_sample_mape": 0.09861103133666684,
+          "avg score prediction error": 0.19018838304552596,
+          "std score prediction error": 12.527962202576521
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13662366028985803,
+          "avg score prediction error": 0.7272370486656201,
+          "std score prediction error": 16.669910517642446
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09252013990783202,
+          "out_sample_mape": 0.09171078372170702,
+          "avg score prediction error": 0.29740987257487067,
+          "std score prediction error": 11.674463538146112
+        }
+      ]
+    },
+    {
+      "game_lag": 10,
+      "dataset_count": { "total": 50879, "training": 48335, "testing": 2544 },
+      "models": [
+        {
+          "name": "Gradient Boosting Regressor",
+          "in_sample_mape": 0.08953326023756322,
+          "out_sample_mape": 0.09360064716736638,
+          "avg score prediction error": -0.06546750442343517,
+          "std score prediction error": 11.789527875850021
+        },
+        {
+          "name": "K Nearest Neighbors",
+          "in_sample_mape": 0.0805349826506647,
+          "out_sample_mape": 0.09915045693682539,
+          "avg score prediction error": -0.21721698113207538,
+          "std score prediction error": 12.459616022097137
+        },
+        {
+          "name": "Decision Tree Regressor",
+          "in_sample_mape": 0.0,
+          "out_sample_mape": 0.13511290515819813,
+          "avg score prediction error": -0.5727201257861635,
+          "std score prediction error": 16.872850898257017
+        },
+        {
+          "name": "Linear Regressor",
+          "in_sample_mape": 0.09236672523468023,
+          "out_sample_mape": 0.09347546279050575,
+          "avg score prediction error": -0.08189282805348869,
+          "std score prediction error": 11.785053742173037
+        }
+      ]
+    }
+  ]
+}
